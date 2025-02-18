@@ -1,1 +1,0 @@
-install.packages(c("shiny","tidyverse","shinythemes","plotly","maps"))
