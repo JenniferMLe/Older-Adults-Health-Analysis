@@ -1,8 +1,11 @@
 # Load R packages
-library(tidyverse)
+library(readr)  # to read and write to csv files
+library(tidyr)  # to pivot
+library(dplyr)  # to select from dataframes
 library(shiny)
 library(shinythemes)
 library(plotly)
+library(ggplot2)
 library(maps)
 
 df<- read.csv(unz("Healthy_Aging_Data.csv.zip","Healthy_Aging_Data.csv"))
