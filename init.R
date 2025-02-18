@@ -1,9 +1,5 @@
-my_packages = c("shiny","tidyverse","shinythemes","plotly","maps")
-
-install_if_missing = function(p) {
-  if (p %in% rownames(installed.packages()) == FALSE) {
-    install.packages(p)
-  }
-}
-
-invisible(sapply(my_packages, install_if_missing))
+install.packages("shiny")
+install.packages("tidyverse")
+install.packages("shinythemes")
+install.packages("plotly")
+install.packages("map")
