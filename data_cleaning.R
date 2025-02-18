@@ -6,6 +6,7 @@ library(shiny)
 library(shinythemes)
 library(plotly)
 library(ggplot2)
+library(DT)
 library(maps)
 
 df<- read.csv(unz("Healthy_Aging_Data.csv.zip","Healthy_Aging_Data.csv"))

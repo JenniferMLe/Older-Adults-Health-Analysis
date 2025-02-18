@@ -12,5 +12,6 @@ install.packages("tidyr")
 # install other packages
 install.packages("shiny")
 install.packages("shinythemes")
+install.packages("DT")
 install.packages("plotly")
-install.packages("map")
+install.packages("maps")
