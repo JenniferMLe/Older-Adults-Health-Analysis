@@ -1,1 +1,1 @@
-web: R -f app.R --gui-none --no-save
+web: R -e "shiny::runApp('.', host='0.0.0.0', port=as.numeric(Sys.getenv('PORT', 3838)))"

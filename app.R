@@ -314,4 +314,4 @@ server <- function(input, output, session) {
 } 
 
 # Create Shiny object
-shinyApp(ui=ui,server=server,options = list(port = as.numeric(Sys.getenv("PORT"))))
+shinyApp(ui=ui,server=server)
