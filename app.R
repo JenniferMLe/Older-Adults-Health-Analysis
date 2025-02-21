@@ -1,7 +1,7 @@
 # Author: Jennifer Le
 # Date: 2/3/25
-# Modified from 
-# https://github.com/rstudio/shiny-examples/tree/main/030-basic-datatable 
+# Dataset from CDC, Alzheimer's Disease and Healthy Aging Data
+# Modified from https://github.com/rstudio/shiny-examples/tree/main/030-basic-datatable 
 
 source("data_cleaning.R")
 

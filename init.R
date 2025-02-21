@@ -1,14 +1,3 @@
-# install core tidyverse packages
-# install.packages("dplyr")
-# install.packages("ggplot2")
-# install.packages("readr")
-# install.packages("tidyr")
-# install.packages("shiny")
-# install.packages("shinythemes")
-# install.packages("DT")
-# install.packages("plotly")
-# install.packages("maps")
-
 # List of required packages
 my_packages <- c("dplyr", "ggplot2", "readr", "tidyr", "shiny", "shinythemes", "DT", "plotly", "maps")
 
